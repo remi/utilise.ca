@@ -7,7 +7,7 @@ section: profil
 		<span class="image"><img src="http://utilise.ca/img/portraits/{{ page.slug }}.jpg" alt="{{ page.nom | xml_escape }}" /></span>
         <h1>{{ page.nom }}</h1>
         <strong>{{ page.titre }}</strong>
-        <time>{{ page.date | date:'%e %B %Y' }}</time>
+		<time pubdate datetime="{{ page.date | date:"%Y-%m-%d"}}">{{ page.date | date:'%e %B %Y' }}</time>
     </section>
     <section class="contenu">
     {{content}}

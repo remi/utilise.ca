@@ -6,12 +6,14 @@ section: accueil
     <ul>
     {% for post in site.posts %}
         <li>
-            <a class="groupe" href="http://{{ post.slug }}.utilise.ca/">
+          <article>
+          <a class="groupe" href="http://{{ post.slug }}.utilise.ca/">
             <span class="image"><img src="http://utilise.ca/img/vignettes/{{ post.slug }}.jpg" alt="{{ post.nom | xml_escape }}" /></span>
             <h2>{{ post.nom }}</h2>
             <strong>{{ post.titre }}</strong>
-            <time>{{ post.date | date:"%e %B %Y" }}</time>
-            </a>
+            <time pubdate datetime="{{ post.date | date:"%Y-%m-%d"}}">{{ post.date | date:"%e %B %Y" }}</time>
+          </a>
+          </article>
         </li>
     {% endfor %}
     </ul>
