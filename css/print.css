@@ -1,0 +1,42 @@
+/* ****************************************************
+
+	@file         print.css
+	@description  Feuille de styles d’impression
+	vim: set et ts=2 sts=2 sw=2 fdm=marker fenc=utf-8:
+
+***************************************************** */
+
+a {
+	color: #444;
+}
+
+img {
+	border: none;
+}
+
+header, footer, nav, section, hgroup, article, aside, figure, canvas { display: block; }
+time { display: inline; }
+
+body.section-accueil nav ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+body.section-accueil nav ul li {
+  list-style: none;
+  margin: 0 0 2em;
+}
+
+body.section-accueil nav ul li h2 {
+  padding: 0;
+  margin: 0.2em 0;
+}
+
+footer {
+  font-size: 90%;
+  padding: 1em 0 0;
+}
+
+footer p {
+  margin: 0.5em 0;
+}

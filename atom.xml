@@ -1,0 +1,30 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Utilise.ca — derniers articles</title>
+	<link href="http://utilise.ca/atom.xml" rel="self"/>
+	<link href="http://utilise.ca"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://utilise.ca</id>
+	<author>
+		<name>Rémi Prévost</name>
+		<email>remi@exomel.com</email>
+	</author>
+
+	{% for post in site.posts limit: 15 %}
+	<entry>
+		<title>{{ post.title }}</title>
+		<link href="http://utilise.ca{{ post.url }}"/>
+		<updated>{{ post.date | date_to_xmlschema }}</updated>
+		<id>http://utilise.ca{{ post.id }}</id>
+		<content type="xhtml">
+			<div xmlns='http://www.w3.org/1999/xhtml'>
+				<p><a href="http://utilise.ca{{ post.url }}"><img src="/img/personnes/{{ post.slug }}.jpg" alt="{{ post.nom | xml_escape }}" /></a></p>
+			{{ post.content }}
+			</div>
+		</content>
+	</entry>
+	{% endfor %}
+</feed>

@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+jekyll --server 3000 --auto --rdiscount --pygments
