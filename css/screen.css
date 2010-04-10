@@ -146,6 +146,10 @@ nav li {
   margin: 0 0 30px;
 }
 
+nav li article {
+  padding: 0;
+}
+
 nav li a {
   display: block;
   border: none;
