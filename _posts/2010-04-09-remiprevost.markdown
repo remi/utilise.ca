@@ -1,6 +1,6 @@
 ---
 layout: post
-slug: remi-prevost
+slug: remiprevost
 nom: Rémi Prévost
 titre: Développeur Web
 ---

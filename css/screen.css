@@ -25,9 +25,6 @@ body {
   text-shadow: 1px 1px 0 #fff;
 }
 
-* html body { color: #eee; }
-*+html body { color: #eee; }
-
 p,ul,ol,table,pre { margin-bottom: 15px; }
 ul { margin-left: 20px; }
 a { text-decoration: none; cursor: pointer; color: rgba(0,0,0,0.5); border-bottom: 1px dotted rgba(0,0,0,0.3); }
@@ -78,11 +75,11 @@ body.section-profil header #titre {
   font-size: 220%;
 }
 
-body.section-accueil #titre strong { color: #888; }
-body.section-accueil #titre a { color: #000; font-weight: bold; border: none; }
+body.section-accueil #titre strong { color: rgba(0,0,0,0.5); }
+body.section-accueil #titre a { color: rgba(0,0,0,1); font-weight: bold; border: none; }
 
-body.section-profil #titre strong { color: #000; }
-body.section-profil #titre a { font-weight: normal; border-bottom: 1px dotted #888; }
+body.section-profil #titre strong { color: rgba(0,0,0,1); }
+body.section-profil #titre a { font-weight: normal; border-bottom: 1px dotted rgba(0,0,0,0.5); }
 
 header .intro {
   margin: 15px 0 0 0;
@@ -126,7 +123,7 @@ header #titre, header .intro {
   border-top: 1px solid rgba(0,0,0,0.1);
   border-bottom: 1px solid rgba(0,0,0,0.1);
   padding: 30px 30px 1px;
-  background: #e4e4e4;
+  background: rgba(0,0,0,0.05);
 }
 
 #contenu .contenu-inner {
@@ -181,7 +178,7 @@ nav li span {
 
 .entete h1, nav li h2 {
   font-size: 120%;
-  color: #000;
+  color: rgba(0,0,0,1);
   margin: 0 0.7em 0 0;
 }
 
@@ -245,7 +242,7 @@ article pre code {
 /*}}}*/
 
 /* @section Syntax highlighting {{{
- * Taken from http://github.com/mojombo/tpw
+ * Taken from http://pygments.org/
  ******************************************************************************/
 
 .highlight { text-shadow: none; }

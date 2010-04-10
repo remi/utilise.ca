@@ -16,12 +16,12 @@ layout: nil
 	{% for post in site.posts limit: 15 %}
 	<entry>
 		<title>{{ post.title }}</title>
-		<link href="http://utilise.ca{{ post.url }}"/>
+		<link href="http://{{ post.slug }}.utilise.ca/"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://utilise.ca{{ post.id }}</id>
 		<content type="xhtml">
 			<div xmlns='http://www.w3.org/1999/xhtml'>
-				<p><a href="http://utilise.ca{{ post.url }}"><img src="/img/personnes/{{ post.slug }}.jpg" alt="{{ post.nom | xml_escape }}" /></a></p>
+				<p><a href="http://{{ post.slug }}.utilise.ca/"><img src="http://utilise.ca/img/vignettes/{{ post.slug }}.jpg" alt="{{ post.nom | xml_escape }}" /></a></p>
 			{{ post.content }}
 			</div>
 		</content>
