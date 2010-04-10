@@ -163,6 +163,7 @@ nav li span {
 .entete img, nav li img {
   width: 100%;
   margin: 0 0 15px;
+  -ms-interpolation-mode:bicubic;
 }
 
 .entete a:hover img, nav li a:hover img {
