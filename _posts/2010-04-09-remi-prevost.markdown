@@ -3,7 +3,6 @@ layout: post
 slug: remi-prevost
 nom: Rémi Prévost
 titre: Développeur Web
-section: profil
 ---
 
 ## Qui êtes vous et que faites-vous dans la vie?
