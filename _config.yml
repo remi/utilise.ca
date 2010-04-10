@@ -2,4 +2,4 @@ destination: ./_site
 pygments:    true
 markdown:    rdiscount
 permalink:   /:title
-exclude:     tasks
+exclude:     Rakefile

@@ -1,2 +1,0 @@
-#!/usr/bin/env bash
-jekyll --rdiscount && rsync -avz --delete _site/ exomel@exomel.com:public/utilise.ca/_site
