@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>{% if page.section == 'accueil' %}Utilise.ca{% else %}{{ page.nom }} — Utilise.ca{% endif %}</title>
+    <title>{% if page.section == 'profil' %}{{ page.nom }} — {% elsif page.section == 'erreur' %}Erreur —{% endif %}Utilise.ca</title>
     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/fonts/adelle/adelle.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
@@ -14,8 +14,10 @@
     <header>
       {% if page.section == 'accueil' %}
       <h1 id="titre"><strong>Ils</strong> <a href="/">utilisent ça</a>.</h1>
-      {% else %}
+      {% elsif page.section == 'profil' %}
       <p id="titre"><strong>{{ page.nom }}</strong> <a href="/">utilise ça</a>.</p>
+      {% elsif page.section == 'erreur' %}
+      <p id="titre">Oups, <a href="/">qui ça</a>?</p>
       {% endif %}
       <div class="intro">
         <p><strong>Utilise.ca</strong> est un regroupement de mini-entrevues avec des geeks francophones qui nous partagent les outils qu’ils utilisent au quotidien pour accomplir leur travail.</p>
@@ -31,9 +33,10 @@
 
     <footer>
       <hr />
-	  <p>Ce site a été créé par <a href="http://remiprevost.com">Rémi Prévost</a> en s’inspirant énormément (et avec la permission) du site <a href="http://www.usesthis.com/">The Setup</a> par <a href="http://www.waferbaby.com">Daniel Bogan</a>. Vous pouvez vous abonner au fil<a href="/atom.xml"> Atom</a>.</p>
+      <p>Ce site a été créé par <a href="http://remiprevost.com">Rémi Prévost</a> en s’inspirant énormément (et avec la permission) du site <a href="http://www.usesthis.com/">The Setup</a> par <a href="http://www.waferbaby.com">Daniel Bogan</a>. Vous pouvez vous abonner au fil<a href="/atom.xml"> Atom</a>.</p>
       <p>Le contenu de ce site est distribué sous license <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/ca/deed.fr_CA">Creative Commons BY-NC-SA</a>, sauf aux endroits où le contraire est indiqué.</p>
       <p>Propulsé par <a href="http://vim.org">vim</a>, <a href="http://git-scm.com">git</a>, <a href="http://daringfireball.net/projects/markdown/">markdown</a>, <a href="http://github.com/mojombo/jekyll/">jekyll</a> <span class="amp">&amp;</span> <a href="http://www.dreamhost.com/r.cgi?68903">dreamhost</a>.</p>
     </footer>
   </body>
+  <!-- vim: set et ts=2 sts=2 fdm=marker fenc=utf-8: -->
 </html>
