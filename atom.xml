@@ -15,7 +15,7 @@ layout: nil
 
 	{% for post in site.posts limit: 15 %}
 	<entry>
-		<title>{{ post.title }}</title>
+		<title>{{ post.nom }}</title>
 		<link href="http://{{ post.slug }}.utilise.ca/"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
 		<id>http://utilise.ca{{ post.id }}</id>
