@@ -12,7 +12,7 @@ Lorem ipsum [dolor sit](#) amet, *consectetur adipiscing elit*. Aenean velit qua
 
 ## Qu’utilisez-vous comme matériel?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean velit quam, dapibus eu venenatis quis, faucibus ut nisl. Fusce adipiscing bibendum tristique. Vestibulum a turpis nisi, ac tristique enim. Morbi adipiscing lectus ac magna placerat ac semper metus volutpat. Nulla pulvinar risus nec ligula elementum a ullamcorper tellus dictum. Etiam sodales metus non magna faucibus quis consequat metus pharetra. Vestibulum eget aliquam tellus. Donec eu neque ut neque ornare viverra luctus eu metus. In auctor tellus pulvinar est accumsan at fermentum enim ultricies. Aliquam et est tellus. Nulla vel dui commodo quam mollis volutpat. Donec dignissim vestibulum mauris et fermentum. Etiam euismod iaculis faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce et facilisis lacus. Curabitur fringilla scelerisque lobortis. Quisque vitae enim nibh. Aenean sagittis sodales dolor, ut malesuada augue lobortis a. Proin scelerisque aliquam erat, ut elementum lacus dictum sed. Duis tincidunt imperdiet mauris, eget ornare neque faucibus a.
+[Lorem ipsum dolor][1] sit amet, consectetur adipiscing elit. Aenean velit quam, dapibus eu venenatis quis, faucibus ut nisl. Fusce adipiscing bibendum tristique. Vestibulum a turpis nisi, ac tristique enim. Morbi adipiscing lectus ac magna placerat ac semper metus volutpat. Nulla pulvinar risus nec ligula elementum a ullamcorper tellus dictum. Etiam sodales metus non magna faucibus quis consequat metus pharetra. Vestibulum eget aliquam tellus. Donec eu neque ut neque ornare viverra luctus eu metus. In auctor tellus pulvinar est accumsan at fermentum enim ultricies. Aliquam et est tellus. Nulla vel dui commodo quam mollis volutpat. Donec dignissim vestibulum mauris et fermentum. Etiam euismod iaculis faucibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce et facilisis lacus. Curabitur fringilla scelerisque lobortis. Quisque vitae enim nibh. Aenean sagittis sodales dolor, ut malesuada augue lobortis a. Proin scelerisque aliquam erat, ut elementum lacus dictum sed. Duis tincidunt imperdiet mauris, eget ornare neque faucibus a.
 
 ### Mettons que quelqu’un voudrait mettre un sous-titre…
 
@@ -42,3 +42,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean velit quam, dapi
 ## L’unique outil dont vous ne pourriez absolument vous passer, et pourquoi?
 
 MacVim, parce que bla bla bla.
+
+[1]: http://exomel.com "Le site de Rémi"
