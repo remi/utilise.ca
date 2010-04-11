@@ -4,10 +4,10 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<title>Utilise.ca — derniers articles</title>
-	<link href="http://utilise.ca/atom.xml" rel="self"/>
-	<link href="http://utilise.ca"/>
+	<link href="{{ site.url }}/atom.xml" rel="self"/>
+	<link href="{{ site.url }}"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://utilise.ca</id>
+	<id>{{ site.url }}</id>
 	<author>
 		<name>Rémi Prévost</name>
 		<email>remi@exomel.com</email>
@@ -16,12 +16,12 @@ layout: nil
 	{% for post in site.posts limit: 15 %}
 	<entry>
 		<title>{{ post.nom }}</title>
-		<link href="http://{{ post.slug }}.utilise.ca/"/>
+        <link href="{{ post.url }}"/>
 		<updated>{{ post.date | date_to_xmlschema }}</updated>
-		<id>http://utilise.ca{{ post.id }}</id>
+		<id>{{ site.url }}{{ post.id }}</id>
 		<content type="xhtml">
 			<div xmlns='http://www.w3.org/1999/xhtml'>
-				<p><a href="http://{{ post.slug }}.utilise.ca/"><img src="http://utilise.ca/img/vignettes/{{ post.slug }}.jpg" alt="{{ post.nom | xml_escape }}" /></a></p>
+                <p><a href="{{ post.url }}"><img src="{{ site.url }}/img/vignettes/{{ post.slug }}.jpg" alt="{{ post.nom | xml_escape }}" /></a></p>
 			{{ post.content }}
 			</div>
 		</content>

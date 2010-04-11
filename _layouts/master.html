@@ -1,28 +1,26 @@
----
-base: http://utilise.ca
----
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
     <title>{% if page.section == 'profil' %}{{ page.nom }} — {% elsif page.section == 'erreur' %}Erreur —{% endif %}Utilise.ca</title>
-    <link rel="stylesheet" href="{{ page.base }}/css/screen.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ page.base }}/css/fonts/adelle/adelle.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ page.base }}/css/print.css" type="text/css" media="print" />
-    <link rel="alternate" href="{{ page.base }}/atom.xml" type="application/atom+xml" title="Utilise.ca — derniers articles" />
-    {% if page.section == 'profil' %}<link rel="canonical" href="http://{{page.slug}}.utilise.ca" type="text/html" />{% endif %}
+    <link rel="stylesheet" href="{{ site.url }}/css/screen.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.url }}/css/fonts/adelle/adelle.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="{{ site.url }}/css/print.css" type="text/css" media="print" />
+    <link rel="alternate" href="{{ site.url }}/atom.xml" type="application/atom+xml" title="Utilise.ca — derniers articles" />
+    {% if page.section == 'profil' %}<link rel="canonical" href="{{ page.url }}" type="text/html" />{% endif %}
     <meta name="viewport" content="width=560" />
     <meta name="format-detection" content="telephone=no" />
   </head>
   <body class="section-{{ page.section }}">
     <header>
-      {% if page.section == 'accueil' %}
-      <h1 id="titre"><strong>Ils</strong> <a href="{{ page.base }}/">utilisent ça</a>.</h1>
-      {% elsif page.section == 'profil' %}
-      <p id="titre"><strong>{{ page.nom }}</strong> <a href="{{ page.base }}/">utilise ça</a>.</p>
-      {% elsif page.section == 'erreur' %}
-      <p id="titre">Oups, <a href="{{ page.base }}/">qui ça</a>?</p>
-      {% endif %}
+      {% case page.section %}
+      {% when 'accueil' %}
+      <h1 id="titre"><strong>Ils</strong> <a href="{{ site.url }}/">utilisent ça</a>.</h1>
+      {% when 'profil' %}
+      <p id="titre"><strong>{{ page.nom }}</strong> <a href="{{ site.url }}/">utilise ça</a>.</p>
+      {% when 'erreur' %}
+      <p id="titre">Oups, <a href="{{ site.url }}/">qui ça</a>?</p>
+      {% endcase %}
       <div class="intro">
         <p><strong>Utilise.ca</strong> est un regroupement de mini-entrevues avec des geeks francophones qui nous partagent les outils qu’ils utilisent au quotidien pour accomplir leur travail.</p>
       </div>
@@ -37,7 +35,7 @@ base: http://utilise.ca
 
     <footer>
       <hr />
-      <p>Ce site a été créé par <a href="http://remiprevost.com">Rémi Prévost</a> en s’inspirant énormément (et avec la permission) du site <a href="http://www.usesthis.com/">The Setup</a> par <a href="http://www.waferbaby.com">Daniel Bogan</a>. Vous pouvez vous abonner au fil<a href="{{ page.base }}/atom.xml"> Atom</a>.</p>
+      <p>Ce site a été créé par <a href="http://remiprevost.com">Rémi Prévost</a> en s’inspirant énormément (et avec la permission) du site <a href="http://www.usesthis.com/">The Setup</a> par <a href="http://www.waferbaby.com">Daniel Bogan</a>. Vous pouvez vous abonner au fil<a href="{{ site.url }}/atom.xml"> Atom</a>.</p>
       <p>Le contenu de ce site est distribué sous license <a href="http://creativecommons.org/licenses/by-nc-sa/2.5/ca/deed.fr_CA">Creative Commons BY-NC-SA</a>, sauf aux endroits où le contraire est indiqué.</p>
       <p>Propulsé par <a href="http://vim.org">vim</a>, <a href="http://git-scm.com">git</a>, <a href="http://daringfireball.net/projects/markdown/">markdown</a>, <a href="http://github.com/mojombo/jekyll/">jekyll</a> <span class="amp">&amp;</span> <a href="http://www.dreamhost.com/r.cgi?68903">dreamhost</a>.</p>
     </footer>
