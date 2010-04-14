@@ -109,7 +109,7 @@ footer p {
  ******************************************************************************/
 
 header, footer {
-  width: 560px;
+  width: 562px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -128,7 +128,7 @@ header #titre, header .intro {
 
 #contenu .contenu-inner {
   margin: 0 auto;
-  width: 500px;
+  width: 502px;
   max-width: 100%;
 }
 
@@ -164,6 +164,9 @@ nav li span {
 .entete img, nav li img {
   width: 100%;
   margin: 0 0 15px;
+  border: 1px solid #bbb;
+  border-bottom-color: #f2f2f2;
+  border-right-color: #f2f2f2;
   -ms-interpolation-mode:bicubic;
 }
 
