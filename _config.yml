@@ -4,9 +4,10 @@ markdown:    rdiscount
 exclude:     Rakefile
 
 #dev
-url:         http://localhost:3000
-permalink:   /:title
+#url:         http://localhost:3000
+#permalink:   /:title
 
 #prod
-#url:         http://utilise.ca
-#permalink:   http:////:title.utilise.ca
+url:         http://utilise.ca
+permalink:   /:title
+ 
