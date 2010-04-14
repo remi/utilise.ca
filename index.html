@@ -7,7 +7,7 @@ section: accueil
     {% for post in site.posts %}
         <li>
           <article>
-          <a class="groupe" href="{{ post.url }}">
+          <a class="groupe" href="http://{{ post.slug }}.utilise.ca">
             <span class="image"><img src="{{ site.url }}/img/vignettes/{{ post.slug }}.jpg" alt="{{ post.nom | xml_escape }}" /></span>
             <h2>{{ post.nom }}</h2>
             <strong>{{ post.titre }}</strong>

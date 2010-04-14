@@ -10,4 +10,3 @@ exclude:     Rakefile
 #prod
 url:         http://utilise.ca
 permalink:   /:title
- 
