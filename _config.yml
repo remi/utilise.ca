@@ -2,11 +2,9 @@ destination: ./_site
 pygments:    true
 markdown:    rdiscount
 exclude:     Rakefile
-
-#dev
-#url:         http://localhost:3000
-#permalink:   /:title
-
-#prod
-url:         http://utilise.ca
 permalink:   /:title
+rdiscount:
+  smart:     true
+
+url:         http://localhost:3000
+#url:         http://utilise.ca
