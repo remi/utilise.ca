@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <title>{% if page.section == 'profil' %}{{ page.nom }} — {% elsif page.section == 'erreur' %}Erreur —{% endif %}Utilise.ca</title>
     <link rel="stylesheet" href="{{ site.url }}/css/screen.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ site.url }}/css/fonts/adelle/adelle.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="{{ site.url }}/css/print.css" type="text/css" media="print" />
     <link rel="alternate" href="{{ site.url }}/atom.xml" type="application/atom+xml" title="Utilise.ca — derniers articles" />
     {% if page.section == 'profil' %}<link rel="canonical" href="http://{{ page.slug }}.utilise.ca/" type="text/html" />{% endif %}
@@ -12,6 +11,8 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
     <!--[if lte IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="http://use.typekit.com/lsf2xli.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
   <body class="section-{{ page.section }}">
     <header>

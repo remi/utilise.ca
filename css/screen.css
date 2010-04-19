@@ -62,7 +62,7 @@ header {
 header #titre {
   font-weight: normal;
   font-size: 270%;
-  font-family: 'AdelleBasicBold', sans-serif;
+  font-family: "adelle-1","adelle-2", sans-serif;
   margin: 0;
   line-height: 1.1;
 }
@@ -179,7 +179,7 @@ nav li span {
 .entete strong, nav li strong,
 .entete time, nav li time {
   float: left;
-  font-family: 'AdelleBasicBold', sans-serif;
+  font-family: "adelle-1","adelle-2", sans-serif;
   font-weight: normal;
 }
 
@@ -221,7 +221,7 @@ article .contenu {
 article h2 {
   font-size: 140%;
   margin: 30px 0 15px;
-  font-family: 'AdelleBasicBold', sans-serif;
+  font-family: "adelle-1","adelle-2", sans-serif;
   font-weight: normal;
 }
 
