@@ -1,8 +1,3 @@
-AuthType Basic
-AuthName "Utilise.ca"
-AuthUserFile /home/exomel/public/utilise.ca/auth/.htpasswd
-Require valid-user
-
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ([a-z-\.]+)\.utilise\.ca$
 RewriteRule ^$ /%1/index.html [L]
