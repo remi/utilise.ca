@@ -5,7 +5,7 @@ nom: Marc-André Cournoyer
 titre: Développeur Web
 ---
 
-## Qui êtes vous et que faites-vous dans la vie?
+## Qui êtes-vous et que faites-vous dans la vie?
 
 Je suis [Marc-André Cournoyer](http://macournoyer.com/), un développeur et entrepreneur Web. J’ai créé plusieurs projets [open-source](http://github.com/macournoyer) autour du langage Ruby, dont le serveur Web [Thin](http://code.macournoyer.com/thin/), [un site](http://refactormycode.com/) de refactorisation de code social, [un livre](http://createyourproglang.com/) sur les langages de programmation et une application Web pour le chat en groupe, [Talker](http://talkerapp.com/). Plus récemment, j’ai joins un startup de Montréal nommé Social Grapes en tant que CTO et me suis fait couper les cheveux, à 4 sur les côtés, sinon on voit le fond de la tête et c’est pas beau.
 

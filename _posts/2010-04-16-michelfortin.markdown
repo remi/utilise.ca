@@ -5,7 +5,7 @@ nom: Michel Fortin
 titre: Développeur
 ---
 
-## Qui êtes vous et que faites-vous dans la vie?
+## Qui êtes-vous et que faites-vous dans la vie?
 
 [Michel Fortin], développeur indépendant. Je crée des logiciels pour moi-même et pour d’autres qui m’en font la demande. Peut-être connaissez-vous [la version PHP de Markdown][phpmd] ou de [SmartyPants][]? Ça vient de moi. J’affectionne particulièrement la plateforme Mac, mais je ne m’y limite pas. Aujourd’hui je vend [Magic Launch] et publie [d’autre logiciels][dl], et je travaille sur un projet que je dévoilerai prochainement.
 
