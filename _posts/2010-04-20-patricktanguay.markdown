@@ -7,7 +7,7 @@ titre: Développeur Web
 
 ## Qui êtes-vous et que faites-vous dans la vie?
 
-Je suis un [développeur Web et consultant](http://tasteofblue.ca/). Je travail principalement avec [Drupal](http://drupal.org/) et [WordPress](http://wordpress.org/), directement avec les clients ou en collaboration avec un(e) designer. Je suis co-fondateur et donc co-boss d’un coworking, [Station C](http://station-c.com/), qui offre des espaces de travail et une communauté de collaboration aux pigistes et micro entreprises de Montréal.
+Je suis un [développeur Web et consultant](http://tasteofblue.ca/). Je travaille principalement avec [Drupal](http://drupal.org/) et [WordPress](http://wordpress.org/), directement avec les clients ou en collaboration avec un(e) designer. Je suis co-fondateur et donc co-boss d’un coworking, [Station C](http://station-c.com/), qui offre des espaces de travail et une communauté de collaboration aux pigistes et micro entreprises de Montréal.
 
 ## Qu’utilisez-vous comme matériel?
 
