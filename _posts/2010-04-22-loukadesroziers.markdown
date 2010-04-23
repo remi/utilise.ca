@@ -9,7 +9,7 @@ titre: Développeur Mac OS / iPhone OS
 
 Je suis un jeune développeur de 21 ans spécialisé dans les systèmes [Mac OS X](http://www.apple.com/ca/macosx/) et [iPhone OS](http://developer.apple.com/iphone/). J’ai longtemps été passionné par les produits d’Apple, et c’est à l’âge de 15 ans que je me suis lancé dans le développement d’applications pour Mac OS X.
 
-Je suis actuellement en CDI chez IFC Trade et me charge de développer des applications iPhone pour différents clients comme l’INPES, Europe-Assistance, etc…
+Je suis actuellement en CDI chez IFC Trade et me charge de développer des applications iPhone pour différents clients comme l’INPES, Europ Assistance, etc…
 
 Je profite aussi du statut d’auto-entrepeneur afin d’avoir mes propres clients, et aussi pouvoir vendre mes propres applications sur Mac essentiellement.
 
