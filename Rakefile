@@ -6,12 +6,16 @@ task :default => :server
 
 desc 'Build site with Jekyll'
 task :build do
+  sh 'mv _config-prod.yml _config.yml'
   jekyll('--rdiscount')
+  sh 'mv _config.yml _config-prod.yml'
 end
 
 desc 'Start server with --auto'
 task :server do
+  sh 'mv _config-dev.yml _config.yml'
   jekyll('--server 3000 --auto --rdiscount --pygments')
+  sh 'mv _config.yml _config-dev.yml'
 end
 
 desc 'Build and deploy'
