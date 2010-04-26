@@ -1,0 +1,49 @@
+---
+layout: post
+slug: robinmillette
+nom: Robin Millette
+titre: Développeur de Prêt-à-Porter
+license: <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/ca/deed.fr_CA">Creative Commons BY-SA</a>
+---
+
+## Qui êtes-vous et que faites-vous dans la vie?
+
+Il y a près de quarante ans naissait à Montréal au Québec un petit *hacker* que ses parents nommèrent [Robin Millette](http://rym.waglo.com/) ce qui me permet aujourd’hui de vous écrire depuis [Rawdon](http://rawdon.waglo.com/), une municipalité de 10 000 habitants à 70km au nord de Montréal. C’est ici que je passe la plus grande partie de mes journées à coder (surtout pour le Web), lire et découvrir de nouvelles idées, nouveaux sites, nouveaux protocoles.
+
+J’ai commencé récement à écrire pour l’agence [Science-Presse](http://www.sciencepresse.qc.ca/users/robin-millette) et c’est mon but cette année d’[écrire plus souvent](http://millette.status.net).
+
+Je suis un grand promoteur de [logiciels libres](http://oilq.org/), de standards ouverts et de décentralisation. J’ai travaillé sur [StatusNet](http://status.net/) / [Identica](http://identi.ca/), je suis l’un des co-fondateurs de [Civic Access](http://civicaccess.ca/), j’ai été président de [FACIL, pour l’appropriation collective de l’informatique libre](http://facil.qc.ca/), vice-président de l’association [Koumbit](http://koumbit.org/), etc.. Plus récemment, je travaille au déploiement de [sites Web municipaux](http://muniduweb.com/) partout au Québec.
+
+## Qu’utilisez-vous comme matériel?
+
+Ça n’a pas vraiment d’importance pour moi. On m’a offert mes deux derniers *laptops* ces 3-4 dernières années. Celui que j’utilise le plus souvent en ce moment c’est un [Dell Inspiron 1525](www.dell.com/inspiron) avec 3 GiB de RAM. Ce *laptop* est conçu pour bien fonctionner avec Ubuntu bien que j’utilise [Debian GNU/Linux](http://www.debian.org/) avec succès. J’utilise celui-ci la plupart du temps à la maison, où un disque, un clavier, une souris, un système de son, une télécommande Logitech (avec un p’tit écran et une prise USB!) et un écran LCD attendent de s’y connecter. Seule particularité, l’écran Dell fait 20 pouces, utilise une résolution de 1920 × 1080 pixels et remplace l’écran du *laptop*. Je pourrais utiliser deux écrans mais ce n’est pas essentiel pour mes besoins.
+
+Je me suis par contre équipé d’un *netbook* [Acer Aspire One](www.acer.com/aspireone/), le premier modèle avec l’écran de 8,9 pouces et 8 GiB de Flash RAM au lieu d’un disque dur. Je peux aussi bien travailler sur cet ordinateur et en plus, je peux le brancher sur le même kit que le Dell. C’est le *netbook* que je traîne avec moi le plus souvent quand je suis sur la route. Enfin, j’ai une imprimante laser achetée 40$ neuve - une erreur de facturation? qui sait. Ma dernière imprimante avant celle-là utilisait une marguerite et c’était sur mon Coleco Adam en 1988... c’est pour dire.
+
+J’ai aussi quelques téléphones et ATA VoIP sous-utilisés. J’espère bientôt avoir le temps de mettre une machine [Asterisk](http://www.asterisk.org) en place et bien profiter de l’équipement que j’ai sous la main pour vraiment bénificier de la téléphonie par Internet.
+
+Sans oublier mon lecteur audio Sansa e280 de Sandisk qui tourne [RockBox](http://www.rockbox.org/), un *firmware* libre qui permet de lire toutes sortes de formats, qui offre des jeux, etc.
+
+## Qu’utilisez-vous comme logiciels?
+
+D’abord, un avertissement. Je ne représente pas du tout l’utilisateur typique de logiciels libres et/ou de GNU/Linux. Mes besoins sont bien modestes et ne satisferaient probablement pas ceux de 95% des utilisateurs, peu importe la plateforme. Aussi, ne me demandez pas de conseil sur l’usage de GNU/Linux comme desktop, ça ne ferait que vous vexer, ne m’y connaissant à peu près pas.
+
+Vous avez remarqué, je dis bien GNU/Linux et pas simplement Linux. Et oui, je suis un de ceux là, un dure! C’est peut-être aussi pourquoi je préfère [Debian](http://debian.org/) (communautaire) à [Ubuntu](http://www.ubuntu.com) (entreprise) comme distribution. J’ai déjà utilisé [Slackware](http://www.slackware.com) (en 1994, à mes débuts dans ce monde) et Red Hat plus tard et enfin Debian depuis 2003 environ.
+
+Sur le *laptop*, j’utilise Debian Stable, ou Lenny par son nom officiel tandis que sur le *netbook*, j’utilise Testing, ou Squeeze (ce sont des personnages de Toy Story, au cas ou vous vous demandiez). Dans quelques cas, je vais utiliser un logiciel qui n’est pas white-listé par ma distribution. Par exemple, j’aime bien utiliser [Google Chrome](http://www.google.com/chrome) comme fureteur, tandis que j’étais un utilisateur d’Epiphany avant ça. Ça pourrait être aussi une version plus récente d’un logiciel déjà disponible dans Stable. La raison est très simple: les logiciels de la version Stable sont, comment dire... stables depuis environ juillet 2008. Ça veut dire qu’à peu près aucune version de logiciel publiée après cette date ne se trouve sur mon *laptop*. Disons que [Firefox](http://www.getfirefox.com) (ahum, je veux dire [Iceweasel](www.geticeweasel.org)) 3.06 ça faisait un peu vieux, mais pour le reste de ce que j’utilise, ça ne fait franchement pas beaucoup de différence.
+
+Oui, j’utilise X Window, je ne suis pas si dur que ça finalement. Non, je n’utilise pas Emacs non plus, aille aille aille. De tous les gestionnaires de fenêtres que j’ai essayé et que j’essaie encore (et croyez moi, ça fait beaucoup, j’ai dû en tester au moins 15!), je reviens toujours à [wmii](http://suckless.org/), le Window Manager Improved. Un gestionnaire de fenêtres à la Plan 9, si on veut. Sa fonction principale est d’organiser les fenêtres pour vous. Fallait y penser, laisser le gestionnaire organiser les fenêtres! La première fenêtre s’ouvre plein écran. La deuxième partage l’écran en deux, au et bas. Une troisième fenêtre partage l’écran en trois parties égales, etc. On peut déplacer une fenêtre dans une nouvelle colonne, cette fenêtre prendre alors toute la hauteur de la colonne. Et ainsi de suite. On peut toujours modifier largeurs et hauteurs, mais les changements sur la largeur affecteront toute la colonne. L’autre particularité de wmii c’est qu’au lieu de desktops de travail, il permet de tagguer chaque fenêtre d’un ou de plusieurs termes et nous avons une vue sur chacun de ces termes. On peut donc tagguer certaines fenêtres "client1", "client2", "email", "dev", etc. et se déplacer entre ces *tags* (qui ont toute l’apparence d’un desktop de travail) pour y voir les applications ainsi tagguées et parfois voir la même application sur deux *tags*. Voilà pour la gestion des fenêtres. Pas de dock, pas d’icones, niet. Juste une petite barre pour m’énumérer mes *tags*, donner l’heure, l’usage du CPU, le load average, l’état de la batterie et les températures ainsi que le nom de la chanson qui joue en ce moment.
+
+Je passe le plus clair de mon temps à écrire et lire (code, doc et autres). J’ai donc [WorkRave](http://www.workrave.org/) pour me rappeler à l’ordre et me dire quand je dois prendre une pause (mini de 30 secondes ou plus longue de 5 minutes) et m’indique à la fin de la journée le nombre de mêtres parcourus avec la souris et autres statistiques très importantes pour bien dormir. À l’écran, j’ai souvent un *browser* avec une dizaine de *tabs* et une ou des terminaux X. J’utilise [`RXVT`](http://www.rxvt.org/) depuis mes vieux jours dans Microsoft Windows ave Cygwin. Conservateur, j’utilise le shell `Bash` avec la complétion intelligente des arguments, l’interface de `vim` plutôt que d’`emacs`. J’écris très très rarement des petits scripts pour m’aider dans mon travail et automatiser certaines tâches. Je préfère Ctrl-R pour rappeller une des 10 000 dernières commandes que j’ai lancé et qui se trouve dans mon *history* et l’adapter à mes besoins actuels quand je ne la trouve pas déjà toute faite.
+
+J’utilise [`vim`](http://www.vim.org) depuis plusieurs années. J’ai souvent essayé des éditeurs *GUI* (même `gvim`) et chaque fois, bah, ça ne me plaisait pas plus que ça. Dernièrement, j’ai découvert [`geany`](http://www.geany.org/) et je compte l’utiliser de plus en plus pour coder. Je préfère en général m’en tenir aux configurations par défaut. Ainsi, je suis tout de suite productif sur une nouvelle installation, peu importe où je me trouve.
+
+Je code la plupart du temps en [PHP](http://www.php.net). Je suis tombé dedans il y a dix ans, après le C++, et je ne m’en suis pas encore sorti. Je fais beaucoup de [Drupal](http://rym.waglo.com/drupal-7-status/), certains diront un *CMS*, moi je l’utilise comme un *framework* pour toutes sortes de riches applications. Ça veut dire que j’utilise aussi [MySQL](http://www.mysql.com). Je préfère de loin la simplicité de [SQLite](http://www.sqlite.org) pour démarrer un nouveau projet et faire des prototypes par contre.
+
+Pour mes autres applications, je me tourne en général vers le Web. Récemment, j’avoue devenir de plus en plus dépendant de Google, que ce soit pour mes emails, Jabber (*chat*), calendrier, carnet d’adresse, documents et chiffriers, etc.
+
+Enfin, j’utilise beaucoup `aptitude`, `screen`, `ssh`, `scp` et `rsync` pour maintenir à jour, synchroniser et faire les copies de sauvegarde des machines que j’administre et qui ne sont pas toutes chez moi.
+
+## L’unique outil dont vous ne pourriez absolument vous passer, et pourquoi?
+
+*Game over*, je ne peux répondre à cette question. L’informatique c’est un écosystème de pratiques, d’applications, de ressources de standards et de protocoles. On peut remplacer un morceau ici et là, parfois avec un impact très important (IPv6 anyone?), en utiliser plus ou moins, mais on ne peux difficilement pas en retirer une entité pour dire, voilà, sans cette pièce là, plus rien ne fonctionne. Peut-être que je changerai d’avis quand j’aurai une mini-tablette ou qu’on pourra se brancher en permanence sur Internet via un port sociétal, qui sait...
