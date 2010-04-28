@@ -7,7 +7,7 @@ titre: Développeur Web Senior
 
 ## Qui êtes-vous et que faites-vous dans la vie?
 
-Je suis [Jay Salvat](http://jaysalvat.com/), j’ai 36 ans et vis sur la Côte d’Azur. Je travaille sur [Sophia Antipolis](http://www.sophia-antipolis.org/)  qu’on aime ici comparer à la Silicone Valley Française. J’oeuvre depuis 6 ans en tant que *Senior Lead developer* dans [une société](http://kuantic.com) de  [GSM embarqué](http://www.dynatik.com/) proposant également des services sur mesure sur internet à ses clients. Je passe mes journées à réaliser des interfaces, intranet, extranet et webservices utilisés par de grands-comptes français tels qu’[Orange](http://orange.fr/), [Axa](http://axa.fr/), [Konica Minolta](www.konicaminolta.fr/), [Renault](http://renault.fr/).
+Je suis [Jay Salvat](http://jaysalvat.com/), j’ai 36 ans et vis sur la Côte d’Azur. Je travaille sur [Sophia Antipolis](http://www.sophia-antipolis.org/)  qu’on aime ici comparer à la Silicone Valley Française. J’oeuvre depuis 6 ans en tant que *Senior Lead developer* dans [une société](http://kuantic.com) de  [GSM embarqué](http://www.dynatik.com/) proposant également des services sur mesure sur internet à ses clients. Je passe mes journées à réaliser des interfaces, intranet, extranet et webservices utilisés par de grands-comptes français tels qu’[Orange](http://orange.fr/), [Axa](http://axa.fr/), [Konica Minolta](http://www.konicaminolta.fr/), [Renault](http://renault.fr/).
 
 Après ma famille, le peu de temps libre qui me reste est consacré à quelques projets open-source tels que [markItUp!](http://markitup.jaysalvat.com/) et [SundayMorning](http://sundaymorning.jaysalvat.com/).
 
@@ -31,7 +31,7 @@ Je hais les téléphones et n’utilise qu’un ancien [Samsung](http://fr.samsu
 
 ## Qu’utilisez-vous comme logiciels?
 
-Sur Mac, [TextMate](http://macromates.com/), boosté de quelques [bundles](http://manual.macromates.com/en/bundles) personnalisés, m’emplit de bonheur. J’attends avec impatience la version 2. Plus élégant, [Coda](http://panic.com/coda/) m’a souvent tenté mais finalement, que m’apporterait-il de plus. Convaincu des qualités de [VIM](www.vim.org), je suis tout simplement trop paresseux pour m’y mettre vraiment.
+Sur Mac, [TextMate](http://macromates.com/), boosté de quelques [bundles](http://manual.macromates.com/en/bundles) personnalisés, m’emplit de bonheur. J’attends avec impatience la version 2. Plus élégant, [Coda](http://panic.com/coda/) m’a souvent tenté mais finalement, que m’apporterait-il de plus. Convaincu des qualités de [vim](http://www.vim.org), je suis tout simplement trop paresseux pour m’y mettre vraiment.
 
 Après avoir essayé tous les IDE de la terre, je n’ai toujours rien trouvé de séduisant sur PC. Les tentatives de cloner [TextMate](http://macromates.com/) sur PC ne sont pas concluantes. Impliqué dans internet depuis plus dix ans, j’utilise encore aujourd’hui une vieille version 8 de [Dreamweaver](http://www.adobe.com/products/dreamweaver/) utilisé en mode code exclusivement. *Overkill, but it gets the job done*.
 
