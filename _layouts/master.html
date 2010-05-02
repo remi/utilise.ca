@@ -19,11 +19,11 @@
     <header>
       {% case page.section %}
       {% when 'accueil' %}
-      <h1 id="titre"><strong>Ils</strong> <a href="{{ site.url }}/">utilisent ça</a>.</h1>
+      <h1 id="titre"><strong>Ils</strong> <a href="{{ site.url }}/">utilisent<span> </span>ça</a>.</h1>
       {% when 'profil' %}
-      <p id="titre"><strong>{{ page.nom }}</strong> <a href="{{ site.url }}/">utilise ça</a>.</p>
+      <p id="titre"><strong>{{ page.nom }}</strong> <a href="{{ site.url }}/">utilise<span> </span>ça</a>.</p>
       {% when 'erreur' %}
-      <p id="titre">Oups, <a href="{{ site.url }}/">qui ça</a>?</p>
+      <p id="titre">Oups, <a href="{{ site.url }}/">qui<span> </span>ça</a>?</p>
       {% endcase %}
       <div class="intro">
         <p><strong>Utilise.ca</strong> est un regroupement de mini-entrevues avec des geeks francophones qui nous partagent les outils qu’ils utilisent au quotidien pour accomplir leur travail.</p>

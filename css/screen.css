@@ -77,6 +77,7 @@ body.section-profil header #titre {
 
 body.section-accueil #titre strong { color: rgba(0,0,0,0.5); }
 body.section-accueil #titre a { color: rgba(0,0,0,1); font-weight: bold; border: none; }
+body.section-accueil #titre span { font-family: Arial; }
 
 body.section-profil #titre strong { color: rgba(0,0,0,1); }
 body.section-profil #titre a { font-weight: normal; border-bottom: 1px dotted rgba(0,0,0,0.5); }
