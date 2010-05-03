@@ -81,6 +81,7 @@ body.section-accueil #titre span { font-family: Arial; }
 
 body.section-profil #titre strong { color: rgba(0,0,0,1); }
 body.section-profil #titre a { font-weight: normal; border-bottom: 1px dotted rgba(0,0,0,0.5); }
+body.section-profil #titre span { font-family: Arial; }
 
 header .intro {
   margin: 15px 0 0 0;
