@@ -15,7 +15,7 @@ Je maintiens un blogue depuis 2002 qui s’appelle [ni vu ni connu] [id5].
 
 Je travaille principalement à la maison alors la plupart du temps, j’utilise mon [iMac 20″] [id6] (2.16 Ghz Core 2 Duo, 3 GB de RAM) avec un [clavier Bluetooth] [id12]. Je l’ai acheté il y a 3 ans alors que je suis passée du PC au Mac. Il m’arrive à l’occasion d’y attacher un écran externe de 20″ quand je dois réviser plusieurs versions de textes à la fois. Je songe à changer ce *setup* pour un iMac 27″ mais je souffre d’indécision chronique quand vient le temps de faire des achats de plus de 500$, alors je vais probablement y penser encore pendant quelques mois.
 
-J’ai des problèmes de [douleurs au coude] [id32] causées principalement par l’utilisation de la souris. Ça va cependant beaucoup mieux depuis que j’ai fait l’acquisition d’une souris [RollerMouse Pro] [13] de même qu’une chaise ergonomique faite sur mesure pour moi (avec des accoudoirs à la bonne hauteur) par la compagnie canadienne [ergoCentric] [id14]. 
+J’ai des problèmes de [douleurs au coude] [id32] causées principalement par l’utilisation de la souris. Ça va cependant beaucoup mieux depuis que j’ai fait l’acquisition d’une souris [RollerMouse Pro] [id13] de même qu’une chaise ergonomique faite sur mesure pour moi (avec des accoudoirs à la bonne hauteur) par la compagnie canadienne [ergoCentric] [id14]. 
 
 J’ai aussi un [Macbook 13″] [id9] que je traîne dans les meetings et les cafés (2.4 GHz Core 2 duo, 2 GB de RAM) en le transportant dans une mallette de la designer torontoise [Melissa Beth] [id31]. Il me sert aussi à regarder des films sur mon téléviseur Sharp Aquos 46″. Mon [ENP HD] [id10] m’est aussi devenu indispensable. Oui, je regarde des films et des émissions de télé dans le cadre de mon travail!
 
