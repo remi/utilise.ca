@@ -7,7 +7,7 @@ titre: Scénariste
 
 ## Qui êtes vous et que faites-vous dans la vie? 
 
-Je suis travailleure autonome et je gagne ma vie principalement avec la scénarisation [cinéma] [id1] et télé. Dans le passé, j’ai travaillé comme chargé de projets Web au magazine [PC World] [id2] à San Francisco et comme journaliste techno pour divers médias québécois dont La Presse, [Radio-Canada] [id3] et TVA. Il m’arrive encore à l’occasion d’écrire [des articles] [id4] de magazines reliés à la technologie et de faire de la consultation concernant les blogues et les réseaux sociaux.
+Je suis travailleure autonome et je gagne ma vie principalement avec la scénarisation [cinéma] [id1] et télé. Dans le passé, j’ai travaillé comme chargée de projets Web au magazine [PC World] [id2] à San Francisco et comme journaliste techno pour divers médias québécois dont La Presse, [Radio-Canada] [id3] et TVA. Il m’arrive encore à l’occasion d’écrire [des articles] [id4] de magazines reliés à la technologie et de faire de la consultation concernant les blogues et les réseaux sociaux.
 
 Je maintiens un blogue depuis 2002 qui s’appelle [ni vu ni connu] [id5].
 
