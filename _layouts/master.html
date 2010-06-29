@@ -13,6 +13,10 @@
     <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/img/apple-touch-icon-precomposed.png" />
     <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
     <!--[if lte IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('2a5f9e1b8fd4a0923cc58d39ca8cf340'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
+    <script type="text/javascript">
+      mpmetrics.track('Visit page', { 'url': window.location.toString() });
+    </script>
   </head>
   <body class="section-{{ page.section }}">
     <header>
