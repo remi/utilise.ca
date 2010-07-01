@@ -20,7 +20,7 @@ end
 
 desc 'Build and deploy'
 task :deploy => :build do
-  sh 'rsync -rtzh --progress --delete _site/ exomel@exomel.com:public/utilise.ca/_site'
+  sh 'rsync --checksum -rtzh --progress --delete _site/ dreamhost:public/utilise.ca/_site'
   sh 'say -v zarvox "deploy is now complete."'
 end
 
