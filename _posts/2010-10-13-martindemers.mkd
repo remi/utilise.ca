@@ -62,4 +62,4 @@ Applications iPad/iPhone:
 
 Mon iPhone 4, l’écran "Retina Display" est tout simplement exceptionnel et il me permet de rester connecté à ma famille, mes amis et mon travail. C’est probablement ce que j’amènerai sur une ile déserte (assumant que je puisse me connecter à un réseau 3G).
 
-Je rêve du jour ou Apple aura intégré un service comme [Dropbox](http://dropbox.com) dans son SDK pour que les applications iPhone et iPad puissent avoir du « *storage* » sur le « *cloud* ».
+Je rêve du jour où Apple aura intégré un service comme [Dropbox](http://dropbox.com) dans son SDK pour que les applications iPhone et iPad puissent avoir du « *storage* » sur le « *cloud* ».
