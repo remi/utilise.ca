@@ -1,7 +1,0 @@
-Options -Indexes
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ([a-z-\.]+)\.utilise\.ca$
-RewriteRule ^$ /%1/index.html [L]
-
-ErrorDocument 404 /404.html
