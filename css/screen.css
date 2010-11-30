@@ -27,10 +27,21 @@ body {
 
 p,ul,ol,table,pre { margin-bottom: 15px; }
 ul { margin-left: 20px; }
-a { text-decoration: none; cursor: pointer; color: rgba(0,0,0,0.5); border-bottom: 1px dotted rgba(0,0,0,0.3); }
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgba(0,0,0,0.5);
+  border-bottom: 1px dotted rgba(0,0,0,0.3);
+  transition: color linear 0.05s;
+  -moz-transition: color linear 0.05s;
+  -webkit-transition: color linear 0.05s;
+}
 a:focus { outline: 1px dotted; }
 a:visited { }
-a:hover, a:focus { color: rgba(0,0,0,0.8); border-color: rgba(0,0,0,0.5); }
+a:hover, a:focus {
+  color: rgba(0,0,0,0.8);
+  border-color: rgba(0,0,0,0.5);
+}
 a *, button * { cursor: pointer; }
 hr { display: none; }
 small { font-size: 90%; }
