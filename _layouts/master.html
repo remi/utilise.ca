@@ -3,30 +3,25 @@
   <head>
     <meta charset="utf-8" />
     <title>{% if page.section == 'profil' %}{{ page.nom }} — {% elsif page.section == 'erreur' %}Erreur —{% endif %}Utilise.ca</title>
-    <link rel="stylesheet" href="{{ site.url }}/css/screen.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ site.url }}/css/fonts/adelle/adelle.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="{{ site.url }}/css/print.css" type="text/css" media="print" />
-    <link rel="alternate" href="{{ site.url }}/atom.xml" type="application/atom+xml" title="Utilise.ca — derniers articles" />
-    {% if page.section == 'profil' %}<link rel="canonical" href="http://{{ page.slug }}.utilise.ca/" type="text/html" />{% endif %}
+    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/fonts/adelle/adelle.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/css/print.css" type="text/css" media="print" />
+    {% if page.section == 'profil' %}<link rel="canonical" href="/{{ page.slug }}" type="text/html" />{% endif %}
     <meta name="viewport" content="width=560" />
     <meta name="format-detection" content="telephone=no" />
-    <link rel="apple-touch-icon-precomposed" href="{{ site.url }}/img/apple-touch-icon-precomposed.png" />
-    <link rel="shortcut icon" href="{{ site.url }}/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed.png" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <!--[if lte IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('2a5f9e1b8fd4a0923cc58d39ca8cf340'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; } </script>
-    <script type="text/javascript">
-      mpmetrics.track('Visit page', { 'url': window.location.toString() });
-    </script>
   </head>
   <body class="section-{{ page.section }}">
     <header>
       {% case page.section %}
       {% when 'accueil' %}
-      <h1 id="titre"><strong>Ils</strong> <a href="{{ site.url }}/">utilisent<span> </span>ça</a>.</h1>
+      <h1 id="titre"><strong>Ils</strong> <a href="/">utilisent<span> </span>ça</a>.</h1>
       {% when 'profil' %}
-      <p id="titre"><strong>{{ page.nom }}</strong> <a href="{{ site.url }}/">utilise<span> </span>ça</a>.</p>
+      <p id="titre"><strong>{{ page.nom }}</strong> <a href="/">utilise<span> </span>ça</a>.</p>
       {% when 'erreur' %}
-      <p id="titre">Oups, <a href="{{ site.url }}/">qui<span> </span>ça</a>?</p>
+      <p id="titre">Oups, <a href="/">qui<span> </span>ça</a>?</p>
       {% endcase %}
       <div class="intro">
         <p><strong>Utilise.ca</strong> est un regroupement de mini-entrevues avec des geeks francophones qui nous partagent les outils qu’ils utilisent au quotidien pour accomplir leur travail.</p>
@@ -42,12 +37,18 @@
 
     <footer>
       <hr />
-      <p>Ce site a été créé par <a href="http://remiprevost.com">Rémi Prévost</a> en s’inspirant énormément (et avec la permission) du site <a href="http://www.usesthis.com/">The Setup</a> par <a href="http://www.waferbaby.com">Daniel Bogan</a>. Vous pouvez vous abonner au fil<a href="{{ site.url }}/atom.xml"> Atom</a> ou au <a href="http://www.twitter.com/utiliseca">compte Twitter</a>.</p>
+      <p>Ce site a été créé par <a href="http://remiprevost.com">Rémi Prévost</a> en s’inspirant énormément (et avec la permission) du site <a href="http://www.usesthis.com/">The Setup</a> par <a href="http://www.waferbaby.com">Daniel Bogan</a>. Vous pouvez vous abonner au <a href="https://twitter.com/utiliseca">compte Twitter</a>.</p>
       <p>Le contenu de ce site est distribué sous license <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ca/deed.fr_CA">Creative Commons BY-NC-SA</a>, sauf aux endroits où le contraire est indiqué.</p>
       <p>Propulsé par <a href="http://www.vim.org">vim</a>, <a href="http://github.com/remiprev/utilise.ca">github</a>, <a href="http://daringfireball.net/projects/markdown/">markdown</a>, <a href="http://github.com/mojombo/jekyll/">jekyll</a> <span class="amp">&amp;</span> <a href="http://nginx.org">nginx</a>.</p>
     </footer>
-    <script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
-    <script type="text/javascript">try { var pageTracker = _gat._getTracker("UA-15771989-1"); pageTracker._setDomainName(".utilise.ca"); pageTracker._trackPageview(); } catch(err) {}</script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-15771989-1', 'utilise.ca');
+      ga('send', 'pageview');
+    </script>
   </body>
   {% comment %} vim: set et ts=2 sts=2 sw=2 fdm=marker fenc=utf-8 ft=liquid: {% endcomment %}
 </html>

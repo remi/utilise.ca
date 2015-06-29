@@ -1,9 +1,0 @@
-destination: ./_site
-pygments:    true
-markdown:    rdiscount
-exclude:     Rakefile
-permalink:   /:title
-rdiscount:
-  smart:     true
-
-url:         http://utilise.ca

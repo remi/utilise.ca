@@ -4,7 +4,7 @@ section: profil
 ---
 <article>
     <section class="entete groupe">
-      <span class="image"><img src="{{ site.url }}/img/portraits/{{ page.slug }}.jpg" alt="{{ page.nom | xml_escape }}" /></span>
+      <span class="image"><img src="/img/portraits/{{ page.slug }}.jpg" alt="{{ page.nom | xml_escape }}" /></span>
       <h1>{{ page.nom }}</h1>
       <strong>{{ page.titre }}</strong>
       <time pubdate datetime="{{ page.date | date:"%Y-%m-%d"}}">{{ page.date | date:'%e %B %Y' }}</time>
