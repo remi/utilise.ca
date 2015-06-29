@@ -4,5 +4,5 @@ markdown: rdiscount
 permalink: /articles/:title
 gems: ['rdiscount']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
-canonical_url: http://localhost:4001
-canonical_host: localhost:4001
+canonical_url: http://www.utilise.ca
+canonical_host: utilise.ca

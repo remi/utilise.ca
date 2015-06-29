@@ -1,5 +1,5 @@
 namespace :assets do
   task :precompile do
-    puts `bundle exec jekyll build --config _config.yml,_config-#{ENV['RACK_ENV']}.yml`
+    puts `bundle exec jekyll build`
   end
 end
