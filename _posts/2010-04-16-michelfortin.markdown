@@ -21,7 +21,7 @@ Principalement un [MacBook Pro][] à écran 13 pouces (juin 2009) avec 2 Go de m
 
 [mouse]: http://www.amazon.com/Logitech-Wheel-Mouse-Optical-Limited/dp/B00006FRUJ
 
-Mon ancien [iBook G4] (14 pouces) sert parfois quand j’ai à tester le bon fonctionnement de logiciels sur un ordinateur plus lent, sur un processeur [PowerPC] ou sur une plus ancienne version de Mac OS X.
+Mon ancien [iBook G4] \(14 pouces\) sert parfois quand j’ai à tester le bon fonctionnement de logiciels sur un ordinateur plus lent, sur un processeur [PowerPC] ou sur une plus ancienne version de Mac OS X.
 
 J’ai un disque dur externe de 320 Go, un [Seagate Freeagent Go for Mac], qui sert à la fois de disque de sauvegarde pour [Time Machine] et à transporter des gros fichiers quand je n’apporte pas mon MacBook avec moi.
 

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -9,8 +9,8 @@
     {% if page.section == 'profil' %}<link rel="canonical" href="/{{ page.slug }}" type="text/html" />{% endif %}
     <meta name="viewport" content="width=560" />
     <meta name="format-detection" content="telephone=no" />
-    <link rel="apple-touch-icon-precomposed" href="/img/apple-touch-icon-precomposed.png" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon-precomposed" href="/img/favicon.png" />
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/png" />
     <!--[if lte IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
   <body class="section-{{ page.section }}">
@@ -39,7 +39,7 @@
       <hr />
       <p>Ce site a été créé par <a href="http://remiprevost.com">Rémi Prévost</a> en s’inspirant énormément (et avec la permission) du site <a href="http://www.usesthis.com/">The Setup</a> par <a href="http://www.waferbaby.com">Daniel Bogan</a>. Vous pouvez vous abonner au <a href="https://twitter.com/utiliseca">compte Twitter</a>.</p>
       <p>Le contenu de ce site est distribué sous license <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/2.5/ca/deed.fr_CA">Creative Commons BY-NC-SA</a>, sauf aux endroits où le contraire est indiqué.</p>
-      <p>Propulsé par <a href="http://www.vim.org">vim</a>, <a href="http://github.com/remiprev/utilise.ca">github</a>, <a href="http://daringfireball.net/projects/markdown/">markdown</a>, <a href="http://github.com/mojombo/jekyll/">jekyll</a> <span class="amp">&amp;</span> <a href="http://nginx.org">nginx</a>.</p>
+      <p>Propulsé par <a href="http://www.vim.org">vim</a>, <a href="http://github.com/remiprev/utilise.ca">github</a>, <a href="http://daringfireball.net/projects/markdown/">markdown</a>, <a href="http://github.com/mojombo/jekyll/">jekyll</a> <span class="amp">&amp;</span> <a href="http://heroku.com">heroku</a>.</p>
     </footer>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -50,5 +50,4 @@
       ga('send', 'pageview');
     </script>
   </body>
-  {% comment %} vim: set et ts=2 sts=2 sw=2 fdm=marker fenc=utf-8 ft=liquid: {% endcomment %}
 </html>

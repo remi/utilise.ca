@@ -1,9 +1,5 @@
-desc 'Build site with Jekyll'
-task :build do
-  jekyll('--rdiscount')
-end
-
-def jekyll(opts = '')
-  sh 'rm -rf _site/*'
-  sh 'jekyll ' + opts
+namespace :assets do
+  task :precompile do
+    puts `bundle exec jekyll build`
+  end
 end

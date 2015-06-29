@@ -1,7 +1,6 @@
 destination: ./_site
-pygments:    true
-markdown:    rdiscount
-exclude:     Rakefile
-permalink:   /:title
-rdiscount:
-  smart:     true
+highlighter: rouge
+markdown: rdiscount
+permalink: /:title
+gems: ['rdiscount']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
