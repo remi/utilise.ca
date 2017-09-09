@@ -60,6 +60,31 @@ time { display: inline; }
 
 /*}}}*/
 
+/* @section Avertissement {{{
+ ******************************************************************************/
+
+#warning {
+  padding: 20px;
+  background: #F3EFCE;
+  border-bottom: 1px solid #E9E5C3;
+}
+
+.warning-inner {
+  width: 522px;
+  max-width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#warning strong {
+  display: block;
+  font-size: 120%;
+  margin: 0 0 10px;
+}
+
+/* }}} */
+
 /* @section Entête {{{
  ******************************************************************************/
 
