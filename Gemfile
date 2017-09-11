@@ -8,3 +8,7 @@ gem 'puma'
 gem 'jekyll', '~> 2.5'
 gem 'rack-jekyll', github: 'adaoraul/rack-jekyll'
 gem 'rdiscount'
+
+group :development do
+  gem 'hanzo'
+end
