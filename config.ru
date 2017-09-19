@@ -11,6 +11,10 @@ class WildcardSubdomainPath
       env['PATH_INFO'] = "/articles/#{$1}"
     end
 
+    if env['PATH_INFO'] == '/articles/jeanfrancoisfortintam'
+      return [410, {}, ['']]
+    end
+
     @app.call(env)
   end
 end
